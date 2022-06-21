@@ -31,6 +31,70 @@ const dashboard = () => {
             <p className="text-2xl">-</p>
           </div>
         </section>
+
+        <section className="m-8">
+          <h2 className="text-2xl">Mutual Funds</h2>
+
+          <table className="w-full text-center my-4">
+            <thead>
+              <tr>
+                <th>Sl No.</th>
+                <th>Name</th>
+                <th>Invested Value</th>
+                <th>Current Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mutual Fund 1</td>
+                <td>15000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Mutual Fund 2</td>
+                <td>25000</td>
+                <td>12000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section className="m-8">
+          <h2 className="text-2xl">Stocks</h2>
+
+          <table className="w-full text-center my-4">
+            <thead>
+              <tr>
+                <th>Sl No.</th>
+                <th>Name</th>
+                <th>Invested Value</th>
+                <th>Current Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Stock 1</td>
+                <td>5000</td>
+                <td>2000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section className="m-8">
+          <h2 className="text-2xl">Crypto</h2>
+
+          <p className="my-4">Nothing's invested till now</p>
+        </section>
+
+        <section className="m-8">
+          <h2 className="text-2xl">Gold</h2>
+
+          <p className="my-4">Nothing's invested till now</p>
+        </section>
       </main>
     </>
   );
