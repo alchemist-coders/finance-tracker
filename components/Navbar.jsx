@@ -11,8 +11,14 @@ const Navbar = () => {
             <a>Dashboard</a>
           </Link>
         </li>
-        <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">Transactions</li>
-        <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">Profile</li>
+        <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">
+          <Link href="/transactions">
+            <a>Transactions</a>
+          </Link>
+        </li>
+        <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">
+          Profile
+        </li>
       </ul>
     </nav>
   );
