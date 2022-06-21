@@ -7,7 +7,7 @@ const dashboard = () => {
     <>
       <Navbar />
 
-      <main className="w-3/4 mx-auto my-8">
+      <main className="w-3/4 mx-auto my-8 mt-36">
         <p className="m-8 text-2xl">Total Investments: 22k</p>
 
         <section className="flex justify-around items-center">
