@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">
           <Link href="/dashboard">
             <a>Dashboard</a>
-          </Link>
+            </Link>
         </li>
         <li className="px-2 py-1 scale-100 hover:scale-105 rounded-lg border-b border-r border-transparent hover:border-black transition">
           <Link href="/transactions">

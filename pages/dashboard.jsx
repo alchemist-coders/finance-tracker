@@ -32,8 +32,8 @@ const dashboard = () => {
           </div>
         </section>
 
-        <section className="m-8">
-          <h2 className="text-2xl">Mutual Funds</h2>
+        <section className=" p-4 border border-black rounded-lg m-8 shadow-xl">
+          <h2 className="text-2xl  font-semibold text-blue-600 ">Mutual Funds</h2>
 
           <table className="w-full text-center my-4">
             <thead>
@@ -61,8 +61,8 @@ const dashboard = () => {
           </table>
         </section>
 
-        <section className="m-8">
-          <h2 className="text-2xl">Stocks</h2>
+        <section className=" p-4 border border-black rounded-lg m-8 shadow-xl">
+          <h2 className="text-2xl font-semibold text-green-600">Stocks</h2>
 
           <table className="w-full text-center my-4">
             <thead>
@@ -84,16 +84,15 @@ const dashboard = () => {
           </table>
         </section>
 
-        <section className="m-8">
-          <h2 className="text-2xl">Crypto</h2>
+        <section className=" p-4 border border-black rounded-lg m-8 shadow-xl">
+          <h2 className="text-2xl font-semibold text-purple-700">Crypto</h2>
 
           <p className="my-4">Nothing's invested till now</p>
         </section>
 
-        <section className="m-8">
-          <h2 className="text-2xl">Gold</h2>
-
-          <p className="my-4">Nothing's invested till now</p>
+        <section className="p-4 border border-black rounded-lg m-8 shadow-xl">
+          <h2 className="text-2xl font-semibold text-amber-600">Gold</h2>
+           <p className="my-4">Nothing's invested till now</p>
         </section>
       </main>
     </>
